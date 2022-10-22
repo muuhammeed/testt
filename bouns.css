@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.8;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900px;
+}
+.top-nav{
+    background-color: dodgerblue;
+    padding: 10px;
+    padding-right: 250px;
+}
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 25px;
+    color: aliceblue;
+}
+.top-nav svg {
+    vertical-align: middle;
+}
+.top-nav span {
+    padding: 5px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+.social-icons{
+    padding-right: 20px;
+display: inline-flex;
+justify-content: space-between;
+border-right: 1px solid white  ;
+align-items: center;
+}
+.top-nav a{
+margin-left: 20px;
+margin-bottom: 0;
+}
+.pos{
+    padding-right: 150px;
+}
+.posti{
+    margin-right: -150px;
+}
+.postit{
+    padding-left: 5px;
+}
+.line{
+    border-right: 1px solid white ;
+    padding: 2px;
+
+
+}
+
+.dropdown-toggle
+ {
+        color: black !important ;
+ }
+ .navbar a:hover{
+    color: aqua;
+ }
+.logo{
+    text-align: center;
+   
+}
+
+.headline{
+    font-size: 40px;
+    color: black;
+    font-family: Sans-serif	;
+
+}
+.first-right-line{
+    /* <hr style="height:2px;border-width:0;color:gray;background-color:gray"> */
+    width: 50px;
+    background-color: #0c65ed;
+    height: 1px;
+    position: absolute;
+  right: 42%;
+  top: 22%;
+    
+
+
+}
+.first-left-line{
+    width: 50px;
+    background-color: #0c65ed;
+    height: 1px;
+    
+    position: absolute;
+  left: 42%;
+  top: 22%;
+}
+.second-right-line{
+    width: 100px;
+    background-color:#0c65ed;
+    height: 1px;
+    position: absolute;
+  right: 39.5%;
+  top: 23%;
+    
+    
+
+}
+.second-left-line{
+    width: 100px;
+    background-color: #0c65ed;
+    height: 1px;
+    position: absolute;
+    left: 39.5%;
+    top: 23%;
+ 
+    
+}
+
+.btn {
+    padding: 9px 24px;
+    font-weight: 500;
+    color: aliceblue;
+    border-radius: 50px 50px 50px 50px;
+}
+.btn-brand{
+    background-color: #0c65ed;
+    /* color: aliceblue; */
+    border-color: #0c65ed;
+    border-radius: 50px 50px 50px 50px;
+    
+
+}
+.btn-brand:hover {
+    color: aliceblue;
+    background-color: #0c65ed;
+    
+}
+/* Sliderr */
+.slide1{
+    background-image: url(../php/images/slider3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ 
+}
+.slide1 img{
+    width: 100%;
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
